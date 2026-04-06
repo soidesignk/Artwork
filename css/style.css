@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.imgs{
+    max-width: 600px;   /* 최대 크기 제한 */
+    width: 100%;         /* 화면에 맞게 줄어듦 */
+    margin: 0 auto;
+}
+
+.img img{
+    width: 100%;         /* 핵심 */
+    height: auto;
+    display: block;
+}
+/* .img img{
+    width: 100%;
+    transform: scale(0.8);
+    transform-origin: top center;
+} */
